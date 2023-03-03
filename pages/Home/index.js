@@ -5,13 +5,13 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/putih.png";
 import classes from "../../styles/hero.module.css";
-import ProductItem from "../Product/product";
+import product from "../Product/product.json";
 import styles from "../../styles/product-item.module.css"
 
 
 
 const Hero = () => {
-  const [data] = useState(ProductItem)
+  const [data] = useState(product)
 
   const favorit = data.filter((e) => e.fav === true)
   return (

@@ -3,15 +3,15 @@ import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "../../components/UI/SectionSubtitle";
 import classes from "../../styles/portfolio.module.css";
 import ProductItem from "./ProductItem";
-import productItem from "./product";
+import product from "./product.json";
 
 const Product = () => {
   const [filter, setFilter] = useState("All");
   const [data, setData] = useState();
-
+console.log(product);
   useEffect(() => {
     if (filter === "Light Sofa") {
-      const filteredData = productItem.filter(
+      const filteredData = product.filter(
         (item) => item.category === filter
       );
 
@@ -19,7 +19,7 @@ const Product = () => {
     }
 
     if (filter === "Dark Sofa") {
-      const filteredData = productItem.filter(
+      const filteredData = product.filter(
         (item) => item.category === filter
       );
 
@@ -27,7 +27,7 @@ const Product = () => {
     }
 
     if (filter === "All") {
-      const filteredData = productItem
+      const filteredData = product
 
       setData(filteredData);
     }
@@ -73,7 +73,7 @@ const Product = () => {
             </div>
           </Col>
 
-          {data?.map((item) => (
+          {product?.map((item) => (
             <Col lg="4" md="4" sm="6" key={item.id}>
               <ProductItem item={item} />
             </Col>

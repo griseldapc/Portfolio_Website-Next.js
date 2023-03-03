@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, {useEffect, useState, useRef} from "react";
-import product from "../Product/product";
+import product from "../Product/product.json";
 import Plus  from "../../pages/Product/Plus";
 import  Minus  from "../../pages/Product/Minus";
 import styles from "../../styles/detail.module.css";
