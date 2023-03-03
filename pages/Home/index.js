@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import heroImg from "../../public/images/putih.png";
 import classes from "../../styles/hero.module.css";
-import product from "../Product/product.json";
+import product from "../../components/product.json";
 import styles from "../../styles/product-item.module.css"
 
 

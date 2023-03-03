@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "reactstrap";
 import SectionSubtitle from "../../components/UI/SectionSubtitle";
 import classes from "../../styles/portfolio.module.css";
-import ProductItem from "./ProductItem";
-import product from "./product.json";
+import ProductItem from "../../components/UI/ProductItem";
+import product from "../../components/product.json";
 
 const Product = () => {
   const [filter, setFilter] = useState("All");
