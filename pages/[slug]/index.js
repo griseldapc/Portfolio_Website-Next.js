@@ -19,11 +19,15 @@ function Detail() {
   const [adding, setAdding] = useState(false);
   const router = useRouter();
   const { slug } = router.query;
-  const barang = getItems(slug);
-  console.log(product);
-  if (Object.keys(barang).length === 1) {
-    return <div>Item not found</div>;
-  }
+  // const barang = getItems(slug);
+
+  const products = product.filter((e)=>e.id===slug)
+const barang = products[0]
+
+  console.log(barang);
+  // if (Object.keys(barang).length === 1) {
+  //   return <div>Item not found</div>;
+  // }
 
   // const { cartCount, addItem } = useShoppingCart();
 
