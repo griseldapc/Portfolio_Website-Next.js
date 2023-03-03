@@ -15,6 +15,8 @@ function getItems(id) {
 }
 
 function Detail() {
+  const [qty, setQty] = useState(1);
+  const [adding, setAdding] = useState(false);
   const router = useRouter();
   const { slug } = router.query;
   const barang = getItems(slug);
@@ -24,8 +26,6 @@ function Detail() {
   }
 
   // const { cartCount, addItem } = useShoppingCart();
-  const [qty, setQty] = useState(1);
-  const [adding, setAdding] = useState(false);
 
   // const toastId = useRef();
   // const firstRun = useRef(true);
