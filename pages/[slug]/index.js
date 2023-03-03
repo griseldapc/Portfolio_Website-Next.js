@@ -51,10 +51,12 @@ function Detail() {
                 media="(max-width: 639px)"
                 type="image/png"
               />
-              <img
+              <Image
                 className={styles.empat}
                 src={barang.img}
                 alt={barang.title}
+                width={400}
+                height={300}
               />
             </picture>
           </div>
