@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../../styles/product-item.module.css"
-export const Minus = () => {
+const Minus = () => {
   return (
     <>
       <svg 
@@ -16,3 +16,5 @@ export const Minus = () => {
     </>
   );
 };
+
+export default Minus
