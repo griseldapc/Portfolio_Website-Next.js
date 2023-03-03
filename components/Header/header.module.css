@@ -34,13 +34,7 @@
   cursor: pointer;
 }
 
-.nav__menu a:hover {
-  color: #01d293;
-}
 
-.nav__menu a:first-child {
-  color: #01d293;
-}
 
 .nav__right p {
   color: #01d293;

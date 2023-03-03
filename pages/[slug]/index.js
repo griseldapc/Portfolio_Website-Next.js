@@ -1,13 +1,13 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import React, {useEffect, useState, useRef} from "react";
-import data from "../Product/product";
+import product from "../Product/product";
 import Plus  from "../../pages/Product/Plus";
 import  Minus  from "../../pages/Product/Minus";
 import styles from "../../styles/detail.module.css";
 
 function getItems(id) {
-  const item = data.find((e) => e.id === Number(id));
+  const item = product.find((e) => e.id === Number(id));
   if (typeof item === "object") {
     return item;
   }
@@ -20,7 +20,7 @@ function Detail() {
   const router = useRouter();
   const { slug } = router.query;
   const barang = getItems(slug);
-  console.log(data);
+  console.log(product);
   if (Object.keys(barang).length === 1) {
     return <div>Item not found</div>;
   }
