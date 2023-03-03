@@ -2,8 +2,8 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React, {useEffect, useState, useRef} from "react";
 import data from "../Product/product";
-import { Plus } from "../../pages/Product/Plus";
-import { Minus } from "../../pages/Product/Minus";
+import Plus  from "../../pages/Product/Plus";
+import  Minus  from "../../pages/Product/Minus";
 import styles from "../../styles/detail.module.css";
 
 function getItems(id) {
