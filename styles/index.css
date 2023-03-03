@@ -1,0 +1,129 @@
+.satu{
+margin-top: 200px;
+}
+
+.dua {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiga{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 375px;
+    flex-direction: column;
+    display: grid;
+}
+
+.empat{
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.lima{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.enam{
+    text-transform: uppercase;
+    letter-spacing: 0.35rem;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.tujuh{
+    margin-top: 0.5rem;
+    font-size: 32px;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.delapan{
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.sembilan{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.sepuluh{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.sebelas{
+    margin-top: 1rem;
+    border-top-width: 1px;
+    padding-top: 1rem;
+}
+
+.duabelas{
+    color: rgb(107 114 128);
+}
+
+.tigabelas{
+    margin-top: 0.25rem;
+    display: flex;
+    align-items: center;
+}
+
+.empatbelas{
+    opacity: 0.5;
+}
+
+.limabelas{
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.enambelas{
+    border-radius: 0.375rem;
+    padding: 0.25rem;
+    border-width: 0px;
+}
+
+.tujuhbelas{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    transition-delay: 75ms;
+} 
+
+@media all and (max-width: 640px) {
+    .tiga{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 375px;
+        flex-direction: column;
+        display: grid;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .tiga{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        width: 375px;
+        flex-direction: column;
+        display: grid;
+    }
+}
