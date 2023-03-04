@@ -1,7 +1,6 @@
 import React from "react";
-
 import { Container, Row, Col } from "reactstrap";
-import classes from "./footer.module.css";
+import classes from "../../styles/footer.module.css";
 import Link from "next/link";
 
 const NAV__LINK = [

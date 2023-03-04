@@ -7,8 +7,7 @@ import heroImg from "../../public/images/putih.png";
 import classes from "../../styles/hero.module.css";
 import product from "../../components/product.json";
 import styles from "../../styles/product-item.module.css"
-
-
+import Footer from "../../components/Footer/Footer";
 
 const Hero = () => {
   const [data] = useState(product)
@@ -31,7 +30,7 @@ const Hero = () => {
                 </p>
                 <div className="mt-5">
                   <button className="primary__btn">
-                    <Link href="#About.jsx">Hire me</Link>
+                    <Link href="/Product">Hire me</Link>
                   </button>
                 </div>
               </div>
@@ -75,10 +74,6 @@ const Hero = () => {
             </div>
           </Link>
         ))}
-      </section>
-
-      <section>
-        
       </section>
 
     </>

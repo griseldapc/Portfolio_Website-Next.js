@@ -1,7 +1,6 @@
 
 .satu{
-    margin-top: 30px;
-    margin-right: 5%;
+    justify-content: center;
     }
     
     .dua {
@@ -57,7 +56,7 @@
     }
     
     .sembilan{
-        margin-top: 1.5rem;
+        margin-top: 0.75rem;
         display: flex;
         align-items: center;
         background:none;
@@ -65,15 +64,13 @@
     
     .sepuluh{
         font-size: 1.875rem;
-        line-height: 2.25rem;
+        line-height: 2rem;
         background:none;
     }
     
     .sebelas{
         background:none;
-        margin-top: 1rem;
         border-top-width: 1px;
-        padding-top: 1rem;
     }
     
     .duabelas{
@@ -82,7 +79,7 @@
     }
     
     .tigabelas{
-        margin-top: 0.25rem;
+        margin-top: 0rem;
         display: flex;
         align-items: center;
         background:none;
@@ -99,7 +96,7 @@
     }
     
     .limabelas{
-        margin:20px;
+        margin:0px;
         background:none;
         font-weight: 600;
         font-size: 1.25rem;
@@ -119,7 +116,7 @@
     }
     
     .tujuhbelas{
-        margin-top: 0.25rem;
+        margin-top: 1.5rem;
         display: flex;
         justify-content: center;
         align-items: center;

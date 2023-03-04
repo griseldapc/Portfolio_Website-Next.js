@@ -2,6 +2,7 @@
   color: #01d293;
 }
 
+
 .about__img {
   padding: 10px;
   background: #171f38;
@@ -14,9 +15,6 @@
   border-radius: 5px;
 }
 
-.about__img__box {
-  width: 200px !important;
-}
 
 @media only screen and (max-width: 992px) {
   .about__img__gallery {

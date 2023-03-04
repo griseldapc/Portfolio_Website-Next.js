@@ -54,6 +54,7 @@ console.log(product);
               >
                 All
               </button>
+
               <button
                 className={` ${
                   filter === "Light Sofa" ? active : ""
@@ -62,6 +63,7 @@ console.log(product);
               >
                 Light Sofa
               </button>
+
               <button
                 className={`${
                   filter === "Dark Sofa" ? active : ""
@@ -70,6 +72,7 @@ console.log(product);
               >
                 Dark Sofa
               </button>
+              
             </div>
           </Col>
 

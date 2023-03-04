@@ -16,14 +16,14 @@ const Hero = () => {
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
               <h2 className="mt-3 mb-3">I&apos;m Griselda Putri Cahyaningtyas</h2>
-              <h5 className="mb-4">Frontend Developer</h5>
+              <h5 className="mb-4">Teaching Factory Class Frontend SMK Telkom Malang</h5>
               <p>
                 Siswi kelas XI SMK Telkom Malang, jurusan Rekayasa Perangkat Lunak.
                 <br></br>Lahir dan besar di Kota Turen pada 7 Agustus 2005
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#About.jsx">Hire me</Link>
+                  <Link href="#">Hire me</Link>
                 </button>
               </div>
             </div>

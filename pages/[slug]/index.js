@@ -19,20 +19,11 @@ function Detail() {
   const [adding, setAdding] = useState(false);
   const router = useRouter();
   const { slug } = router.query;
-  // const barang = getItems(slug);
 
   const products = product.filter((e)=>e.id===slug)
 const barang = products[0]
 
   console.log(barang);
-  // if (Object.keys(barang).length === 1) {
-  //   return <div>Item not found</div>;
-  // }
-
-  // const { cartCount, addItem } = useShoppingCart();
-
-  // const toastId = useRef();
-  // const firstRun = useRef(true);
 
   const handleOnAddToCart = () => {
     setAdding(true);
@@ -41,7 +32,7 @@ const barang = products[0]
     );
     addItem(props, qty);
   };
-
+ console.log();
   return (
     <main className={styles.satu}>
       <div className={styles.dua}>

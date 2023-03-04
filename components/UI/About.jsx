@@ -16,7 +16,6 @@ const About = () => {
           <Col lg="6" className={`${classes.about__content}`}>
             <SectionSubtitle subtitle="About me" />
             <h3 className="mt-4">I&apos;m here</h3>
-            <h3 className="mb-4">to help your next project</h3>
             <p>
                                 Nama            : Griselda Putri Cahyaningtyas <br></br>
                                 Tanggal Lahir   : Malang, 7 Agustus 2005 <br></br>
@@ -62,12 +61,6 @@ const About = () => {
               </div>
             </div>
 
-            <div className="mt-5">
-              <button className="primary__btn">
-                <Link href="#portfolio">My Portfolio</Link>
-              </button>
-
-            </div>
           </Col>
 
           <Col lg="6">
@@ -76,29 +69,29 @@ const About = () => {
             >
               <div className=" d-flex flex-column mb-3">
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about__img}`}
                 >
-                  <Image src="/images/hooh.jpg" alt="about-img" width={100} height={100}/>
+                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
                 </div>
 
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about__img}`}
                 >
-                  <Image src="/images/3.png" alt="about-img" width={100} height={100}/>
+                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
                 </div>
               </div>
 
               <div className=" d-flex flex-column mb-3">
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about__img}`}
                 >
-                  <Image src="/images/3.png" alt="about-img" width={100} height={100}/>
+                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
                 </div>
 
                 <div
-                  className={`${classes.about__img} ${classes.about__img__box}`}
+                  className={`${classes.about__img}`}
                 >
-                  <Image src="/images/hooh.jpg" alt="about-img" width={100} height={100}/>
+                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
                 </div>
               </div>
             </div>
