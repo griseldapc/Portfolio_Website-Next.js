@@ -30,7 +30,7 @@ const Hero = () => {
                 </p>
                 <div className="mt-5">
                   <button className="primary__btn">
-                    <Link href="/Product">Hire me</Link>
+                    <Link href="/Product">Soft-Fa Here👌</Link>
                   </button>
                 </div>
               </div>

@@ -41,7 +41,7 @@ console.log(product);
         <Row>
           <Col lg="6" md="6" className="mb-5">
             <SectionSubtitle subtitle=" My product" />
-            <h4 className="mt-4">These are some of the newest and most favorite products</h4>
+            <h4 className="mt-4">Meet our Newest Collection for this seasons that was Made Just for You ❤️</h4>
           </Col>
 
           <Col lg="6" md="6">
@@ -72,7 +72,7 @@ console.log(product);
               >
                 Dark Sofa
               </button>
-              
+
             </div>
           </Col>
 

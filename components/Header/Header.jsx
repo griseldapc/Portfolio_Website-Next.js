@@ -15,7 +15,7 @@ const NAV__LINK = [
   },
     {
     path: "/",
-    display: "About",
+    display: "About Us",
   },
 ];
 

@@ -3,7 +3,7 @@ import SectionSubtitle from "./SectionSubtitle";
 import { Container, Row, Col } from "reactstrap";
 import Image from "next/image";
 import Link from "next/link";
-import heroImg from "../../public/images/3.png";
+import heroImg from "../../public/images/about.jpg";
 import classes from "../../styles/hero.module.css";
 
 const Hero = () => {
@@ -15,15 +15,14 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className={`${classes.hero__content}`}>
               <SectionSubtitle subtitle="Hello" />
-              <h2 className="mt-3 mb-3">I&apos;m Griselda Putri Cahyaningtyas</h2>
-              <h5 className="mb-4">Teaching Factory Class Frontend SMK Telkom Malang</h5>
+              <h2 className="mt-3 mb-3">Find Your Dream Furniture Soft-Fa</h2>
+              <h5 className="mb-4">One for all solution, for furniture sofa shop</h5>
               <p>
-                Siswi kelas XI SMK Telkom Malang, jurusan Rekayasa Perangkat Lunak.
-                <br></br>Lahir dan besar di Kota Turen pada 7 Agustus 2005
+                Experience the Art of Comfort with Our Timeless Sofa Design.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#">BUY NOW</Link>
                 </button>
               </div>
             </div>
@@ -32,7 +31,7 @@ const Hero = () => {
           {/* ========== hero img ============= */}
           <Col lg="6" md="6">
             <div className={`${classes.hero__img} text-end`}>
-              <Image alt="hero-image" src={heroImg} width="400" height="400" />
+              <Image alt="hero-image" src={heroImg} width="500" height="500" />
             </div>
           </Col>
         </Row>

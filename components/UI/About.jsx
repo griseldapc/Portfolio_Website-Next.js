@@ -3,9 +3,6 @@ import { Container, Row, Col } from "reactstrap";
 import Link from "next/link";
 import SectionSubtitle from "./SectionSubtitle";
 import Image from "next/image";
-
-
-
 import classes from "../../styles/about.module.css";
 
 const About = () => {
@@ -14,17 +11,12 @@ const About = () => {
       <Container>
         <Row>
           <Col lg="6" className={`${classes.about__content}`}>
-            <SectionSubtitle subtitle="About me" />
-            <h3 className="mt-4">I&apos;m here</h3>
+            <SectionSubtitle subtitle="About Soft-Fa" />
+            <h3 className="mt-4">Masterpieces crafted from high quality materials.</h3>
             <p>
-                                Nama            : Griselda Putri Cahyaningtyas <br></br>
-                                Tanggal Lahir   : Malang, 7 Agustus 2005 <br></br>
-                                Alamat          : JL. A. Yani Turen<br></br>
-                                Agama           : Islam <br></br>
-                                Kewarganegaraan : Indonesia <br></br>
-                                Pendidikan      : SMK Telkom Malang <br></br>
-                                Jurusan         : Rekayasa Perangkat Lunak <br></br>
-                                No. Tlp         : +62 81249699404
+                                  Since 2023, Soft-fa has been producing ecological furniture. We support minimalist modern design and a sustainable design approach.<br></br>
+
+                                  These are some customer request designs that are in the process of being worked on.
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -33,14 +25,14 @@ const About = () => {
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Problem Solving
+                  Friendly and Fast Service
                 </h6>
 
                 <h6 className=" d-flex align-items-center gap-2 mt-3 fw-normal">
                   <span className={`${classes.about__icon}`}>
                     <i className="ri-checkbox-circle-line"></i>
                   </span>
-                  Search A Lot
+                  Affordable Prices
                 </h6>
               </div>
 
@@ -71,13 +63,13 @@ const About = () => {
                 <div
                   className={`${classes.about__img}`}
                 >
-                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
+                  <Image src="/images/sofa1.jpg" alt="about-img" width={200} height={200}/>
                 </div>
 
                 <div
                   className={`${classes.about__img}`}
                 >
-                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
+                  <Image src="/images/sofa2.jpg" alt="about-img" width={200} height={200}/>
                 </div>
               </div>
 
@@ -85,13 +77,13 @@ const About = () => {
                 <div
                   className={`${classes.about__img}`}
                 >
-                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
+                  <Image src="/images/sofa3.jpg" alt="about-img" width={200} height={200}/>
                 </div>
 
                 <div
                   className={`${classes.about__img}`}
                 >
-                  <Image src="/images/finish.png" alt="about-img" width={150} height={150}/>
+                  <Image src="/images/sofa4.jpg" alt="about-img" width={200} height={200}/>
                 </div>
               </div>
             </div>

@@ -14,7 +14,7 @@ const NAV__LINK = [
   },
   {
     path: "#about",
-    display: "About",
+    display: "About Us",
   },
 ];
 
