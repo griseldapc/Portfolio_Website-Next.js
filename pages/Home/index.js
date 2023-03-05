@@ -22,11 +22,10 @@ const Hero = () => {
             {/* ========== hero content ============= */}
             <Col lg="6" md="6">
               <div className={`${classes.hero__content}`}>
-                <SectionSubtitle subtitle="Produk teratas dengan kualitas tanpa batas" />
+                <SectionSubtitle subtitle="Sofa shop ready to accompany your happinesss" />
                 <h2 className="mt-3 mb-3">We believe in the best quality over a great smile</h2>
                 <p>
-                  Website ini menyediakan berbagai jenis Sofa yang sesuai dengan keinginan anda.
-                  <br></br>Kualitas terbaik dijamin puas.
+                  One for all solution, for furniture sofa shop
                 </p>
                 <div className="mt-5">
                   <button className="primary__btn">
