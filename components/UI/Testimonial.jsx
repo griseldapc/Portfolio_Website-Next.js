@@ -41,14 +41,14 @@ const Testimonial = () => {
                   />
 
                   <div>
-                    <h6>My Mother</h6>
+                    <h6>Ibu Peri</h6>
                     <h6>Wonder Woman</h6>
                   </div>
                 </div>
 
                 <p>
-                Comfortable sofas with friendly and fast service accompanied by affordable prices make me want to continue to be a customer.<br></br>
-                Don't worry if your house is far away, Soft-fa is ready to deliver your order.
+                Comfortable sofa with friendly and fast service accompanied by affordable prices make me want to continue to be a customer.<br></br>
+                Dont worry if your house is far away, Soft-fa is ready to deliver your order.
                 </p>
               </div>
 
@@ -64,7 +64,7 @@ const Testimonial = () => {
                   />
 
                   <div>
-                    <h6>My Father</h6>
+                    <h6>Ayahanda</h6>
                     <h6>Superman</h6>
                   </div>
                 </div>

@@ -6,34 +6,7 @@ import ProductItem from "../../components/UI/ProductItem";
 import product from "../../components/product.json";
 
 const Product = () => {
-  const [filter, setFilter] = useState("All");
-  const [data, setData] = useState();
 console.log(product);
-  useEffect(() => {
-    if (filter === "Light Sofa") {
-      const filteredData = product.filter(
-        (item) => item.category === filter
-      );
-
-      setData(filteredData);
-    }
-
-    if (filter === "Dark Sofa") {
-      const filteredData = product.filter(
-        (item) => item.category === filter
-      );
-
-      setData(filteredData);
-    }
-
-    if (filter === "All") {
-      const filteredData = product
-
-      setData(filteredData);
-    }
-  }, [filter]);
-
-  const active = `${classes.tab__btn__active}`;
 
   return (
     <section id="product">
@@ -45,35 +18,6 @@ console.log(product);
           </Col>
 
           <Col lg="6" md="6">
-            <div className={`${classes.tab__btns} text-end`}>
-            <button
-                className={`${
-                  filter === "All" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("All")}
-              >
-                All
-              </button>
-
-              <button
-                className={` ${
-                  filter === "Light Sofa" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Light Sofa")}
-              >
-                Light Sofa
-              </button>
-
-              <button
-                className={`${
-                  filter === "Dark Sofa" ? active : ""
-                } secondary__btn text-white`}
-                onClick={() => setFilter("Dark Sofa")}
-              >
-                Dark Sofa
-              </button>
-
-            </div>
           </Col>
 
           {product?.map((item) => (
