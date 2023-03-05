@@ -21,7 +21,12 @@ function Detail() {
   const { slug } = router.query;
 
   const products = product.filter((e)=>e.id===slug)
-const barang = products[0]
+  
+  const barang = products.length > 0 ? products[0] : null;
+
+  if (!barang) {
+    return <div>Product not found</div>;
+  }
 
   console.log(barang);
 

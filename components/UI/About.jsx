@@ -14,8 +14,9 @@ const About = () => {
             <SectionSubtitle subtitle="About Soft-Fa" />
             <h3 className="mt-4">Masterpieces crafted from high quality materials.</h3>
             <p>
-                                  Since 2023, Soft-fa has been producing ecological furniture. We support minimalist modern design and a sustainable design approach.<br></br>
-
+                                  Since 2023, Soft-Fa has been producing ecological furniture. We support minimalist modern design and a sustainable design approach.
+            </p>
+            <p>
                                   These are some customer request designs that are in the process of being worked on.
             </p>
 

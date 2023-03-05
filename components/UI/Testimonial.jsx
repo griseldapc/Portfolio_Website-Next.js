@@ -47,11 +47,10 @@ const Testimonial = () => {
                 </div>
 
                 <p>
-                Comfortable sofa with friendly and fast service accompanied by affordable prices make me want to continue to be a customer.<br></br>
-                Dont worry if your house is far away, Soft-fa is ready to deliver your order.
+                Comfortable sofa with friendly and fast service accompanied by affordable prices make me want to continue to be a customer.</p>
+                <p>Dont worry if your house is far away, Soft-fa is ready to deliver your order.
                 </p>
               </div>
-
 
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
