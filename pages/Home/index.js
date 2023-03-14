@@ -22,10 +22,10 @@ const Hero = () => {
             {/* ========== hero content ============= */}
             <Col lg="6" md="6">
               <div className={`${classes.hero__content}`}>
-                <SectionSubtitle subtitle="Sofa shop ready to accompany your happinesss" />
+                <SectionSubtitle subtitle="Soft-Fa shop ready to accompany your happinesss" />
                 <h2 className="mt-3 mb-3">We believe in the best quality over a great smile</h2>
                 <p>
-                  One for all solution, for furniture sofa shop
+                  One for all solution, for furniture Soft-Fa shop
                 </p>
                 <div className="mt-5">
                   <button className="primary__btn">
